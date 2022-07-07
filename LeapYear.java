@@ -4,7 +4,7 @@ public class LeapYear {
 	public static void main(String[] args) {
 			
 			System.out.println("----------Check Year its Leap Or not -----------");
-			System.out.println("Enter First Number : ");
+			System.out.println("Enter a year : ");
 			Scanner Firstvalue = new Scanner(System.in);
 			int year = Firstvalue.nextInt();
 			boolean Leap = false;
